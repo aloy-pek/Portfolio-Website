@@ -295,7 +295,7 @@ header {
   gap: 2vw;
   align-items: center; 
   flex-direction: column;
-
+  margin-bottom: 50px;
 }
 
 .expline {
@@ -434,12 +434,19 @@ header {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   margin-top: 0px;
 }
+
 .projimg {
   width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .icon {
   width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 6px;
 }
 
 .projectlogos {
@@ -466,6 +473,8 @@ header {
   font-family: 'Gill Sans';
   text-align: left;
 }
+
+
 /* contact page */
 .contactsmain {
   border-radius: 100px;
